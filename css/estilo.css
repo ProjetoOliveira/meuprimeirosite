@@ -1,5 +1,9 @@
-.{
-    background-color: #159dc7ad;
+.fundo_verde{
+    background-color: #156b85b6;
+}
+
+.fundo_azul{
+    background-color: #1376c7cb;
 }
 
 .container{
@@ -38,5 +42,9 @@ p{
     text-align: justify;
     border-style: double;
 
+}
+
+footer{
+    background-color: rgb(202, 199, 199);
 }
 
