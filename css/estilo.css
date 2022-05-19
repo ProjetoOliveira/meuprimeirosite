@@ -6,6 +6,11 @@
     background-color: #1376c7cb;
 }
 
+.menu{
+    background-color: rgba(23, 175, 168)   ;
+    padding: 2%;
+}
+
 .container{
 
     width: 80%;
@@ -45,6 +50,6 @@ p{
 }
 
 footer{
-    background-color: rgb(202, 199, 199);
+    background-color: rgba(32,178,170)
 }
 
