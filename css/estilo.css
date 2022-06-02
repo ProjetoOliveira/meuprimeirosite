@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .fundo_verde{
     background-color: #156b85b6;
 }
@@ -39,12 +43,12 @@ h3{
 }
 .img_corpo{
     width: 60%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 figure{
     text-align: center;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
 }
 
 .img_topo{
