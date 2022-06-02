@@ -5,11 +5,19 @@
 .fundo_azul{
     background-color: #1376c7cb;
 }
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 .menu{
-    background-color: rgba(23, 175, 168)   ;
+    background-color: rgba(23, 175, 168, 0.3)   ;
     padding: 2%;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.5;
 }
+
 
 .container{
 
@@ -19,6 +27,9 @@
 }
 h1{
     text-align: center;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 h2{
     text-align: center;
@@ -32,10 +43,16 @@ h3{
 
 figure{
     text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 .img_topo{
     width: 100%;  
+    font-weight: bold;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 
@@ -50,6 +67,10 @@ p{
 }
 
 footer{
-    background-color: rgba(32,178,170)
+    background-color: rgba(32,178,170, 0.3)
+}
+
+.center{
+    text-align: center;
 }
 
