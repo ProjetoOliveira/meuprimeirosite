@@ -2,20 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 
-.fundo_verde{
-    background-color: #156b85b6;
-}
-
-.fundo_azul{
-    background-color: #1376c7cb;
-}
-section{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 .menu{
-    background-color: rgba(23, 175, 168, 0.3)   ;
+    background-color: rgba(23, 175, 168, 0.3);
     padding: 2%;
 }
 
@@ -29,25 +17,41 @@ section{
     line-height: 1.5;
 }
 
+h1{
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h2{
+    text-align: center;
+}
+
+.fundo_verde{
+    background-color: #156b85b6;
+}
+
+.fundo_azul{
+    background-color: #1376c7cb;
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 .container{
 
     width: 80%;
     margin: auto;
-
 }
+
 h1{
     text-align: center;
-    font-size: 2em;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    color: #fff;
+    font-weight: bolder;
 }
-h2{
-    text-align: center;
-}
-h3{ 
-    text-align: center;
-}
+
 .img_corpo{
     width: 60%;
     margin-top: 1.5%;
@@ -60,10 +64,6 @@ figure{
 
 .img_topo{
     width: 100%;  
-    font-weight: bold;
-    text-indent: 50px;
-    text-align: justify;
-    line-height: 1.5;
 }
 
 
@@ -73,12 +73,17 @@ p{
     font-weight: bold;
     text-indent: 60px;
     text-align: justify;
+    line-height: 1.5;
     border-style: double;
-
 }
 
 footer{
     background-color: rgba(32,178,170, 0.3)
+    
+}
+
+footer p{
+    font-size: 1em;
 }
 
 .center{
@@ -88,6 +93,7 @@ footer{
 .itens_menu a:link, .itens_menu a:visited  {
     color: rgb(6, 9, 17);
     text-decoration: none;
+    font-weight: bolder;
   }
 
 .itens_menu a:hover{
