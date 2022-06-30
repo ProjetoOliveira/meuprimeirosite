@@ -27,9 +27,6 @@ h2{
     text-align: center;
 }
 
-.fundo_verde{
-    background-color: #156b85b6;
-}
 
 .fundo_azul{
     background-color: #1376c7cb;
@@ -79,7 +76,6 @@ p{
 
 footer{
     background-color: rgba(32,178,170, 0.3)
-    
 }
 
 footer p{
