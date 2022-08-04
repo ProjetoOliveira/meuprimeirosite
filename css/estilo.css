@@ -2,6 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
+
+body{
+    background-image: url(https://disneyplusbrasil.com.br/wp-content/uploads/2021/10/The-Walking-Dead-fora-dos-Estados-Unidos-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+}
+
 .menu{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 2%;
@@ -74,14 +82,6 @@ p{
     border-style: double;
 }
 
-footer{
-    background-color: rgba(0, 0, 0, 0.3)
-}
-
-footer p{
-    font-size: 1em;
-}
-
 .center{
     text-align: center;
 }
@@ -100,5 +100,25 @@ footer p{
 .itens_menu a:active{
     color: rgba(70, 72, 82, 0.877);
     background-color: rgba(69, 72, 78, 0.87);
+}
+
+.direita{
+    float: right;
+    margin-left: 2%;
+    width: 40%;
+}
+
+.esquerda{
+    float:left;
+    margin-right: 2%;
+    width: 50%;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+footer p{
+    font-size: 1em;
 }
 
