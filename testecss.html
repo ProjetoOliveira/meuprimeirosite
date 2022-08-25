@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste CSS interno e Inline</title>
-    <style>
+    <style type="text/css">
         body{
             background-color: rgb(143, 218, 153);
         }
@@ -16,11 +16,91 @@
         p{
             color: azure;
         }
+
+        .container{
+            position: relative;
+            background-color: rgb(55, 117, 172);
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;
+        }
+
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blueviolet;
+        }
+
+        .abaixoesquerda{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(108, 151, 131);
+        }
+
+        .abaixodireita{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(112, 48, 112);
+        }
+
+        .centro{
+            position: absolute;
+            top: 50%;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(150, 119, 179);
+            margin-left: 40%;
+        }
+
+        .fixo{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            background-color: rgb(190, 144, 233);
+        }
+
+        .main{
+            margin-top: 8%;
+        }
+
     </style>
 </head>
 <body>
-    <h1 style="background-color: darkslategrey;">Teste CSS interno e Inline </h1>
-    <p style="font-style: unset;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis vitae in omnis nisi eum, ut vel inventore asperiores quis dolorem perferendis iure et exercitationem veritatis. Alias harum quisquam dolor!</p>
-    <p style="font-style: unset;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste veritatis, dolorum quasi reprehenderit fugiat voluptate laudantium voluptatibus explicabo esse, corporis, vero maiores eius! Similique recusandae tempore non voluptas obcaecati?</p>
+    <header class="fixo">
+        <h1 style="background-color: darkslategrey;">Teste CSS interno e Inline </h1>
+        <p style="font-style: unset;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis vitae in omnis nisi eum, ut vel inventore asperiores quis dolorem perferendis iure et exercitationem veritatis. Alias harum quisquam dolor!</p>
+        <p style="font-style: unset;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste veritatis, dolorum quasi reprehenderit fugiat voluptate laudantium voluptatibus explicabo esse, corporis, vero maiores eius! Similique recusandae tempore non voluptas obcaecati?</p>
+    </header>
+    <div class="main">
+        <h1>Testando. . . .</h1>
+        <div class="container">
+            <div class="topoesquerda">No topo esquerda</div>
+            <div class="topodireita">No topo direita</div>
+            <div class="baixoesquerda">Abaixo esquerda</div>
+            <div class="baixodireita">Abaixo direita</div>
+            <div class="centro">Centro</div>
+        </div>   
+
+    </div>   
 </body>
 </html>
