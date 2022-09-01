@@ -13,8 +13,14 @@ body{
 .menu{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 2%;
+    position: fixed;
+    width: 100%;
 }
 
+.fundo_header{
+    width: 100%;
+    height: 249px;
+}
 .itens_menu{
     text-align: center;
 }
@@ -38,6 +44,14 @@ h2{
 
 .fundo_cinza{
     background-color: #5e5151d2;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo_grande{
+    width: 5%;
 }
 
 section{
@@ -81,6 +95,15 @@ p{
     line-height: 1.5;
     border-style: double;
 }
+
+footer{
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+footer p{
+    font-size: 1em;
+}
+
 
 .center{
     text-align: center;
@@ -172,11 +195,78 @@ th{
     color: #4F4F4F;
 }
 
-footer{
-    background-color: rgba(0, 0, 0, 0.3)
+audio{
+    width: 80%;
 }
 
-footer p{
-    font-size: 1em;
+audio::-webkit-media-controls-panel{ 
+    background-color:#334c69 !important; 
 }
+
+form {
+    box-sizing: border-box;
+    
+  }
+
+.form{
+    background-color: rgba(95, 95, 95, 0.5) ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid rgb(97, 136, 168);
+    border-radius: 25px;
+    resize: vertical;
+    
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color:rgba(59, 98, 150, 0.322)  ;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+    background-color: #245a7e ;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media screen and (max-width: 450px) {
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }    
+  }
+
 
