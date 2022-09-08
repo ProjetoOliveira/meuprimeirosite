@@ -16,6 +16,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    top: 0;
 }
 
 .fixo{
@@ -50,13 +51,7 @@ h2{
     background-color: #5e5151d2;
 }
 
-.logo{
-    text-align: center;
-}
 
-.logo_grande{
-    width: 23%;
-}
 
 section{
     margin-top: 2%;
@@ -116,6 +111,10 @@ footer p{
     text-align: center;
 }
 
+.center_botao{
+    text-align: center;
+}
+
 .itens_menu a:link, .itens_menu a:visited  {
     color: rgb(6, 9, 17);
     text-decoration: none;
@@ -133,7 +132,7 @@ footer p{
 }
 
 #mais a:visited, #mais a:link{
-    color: #3e5175;
+    color: #0b275c;
 }
 
 #mais a:hover{
@@ -153,15 +152,16 @@ footer p{
     text-indent: 0;
     text-align: center;
 }
-    
 
 .botao a:link, .botao a:visited{
-    color:#363d5e;
+    color:#0e1a58;
+    text-align: center;
 
 }
 
 .botao:hover{
-    background-color: #bbbbbb;
+    text-align: center;
+ 
 }
 
 .direita{
@@ -274,6 +274,21 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
         width: 100%;
         margin-top: 0;
       }    
+
+    .logo{
+        text-align: center;
+        
+    }
+
+    .img_logo{
+        width: 20%;
+    }
+
+
+    .banner{
+        margin-top: 40%;
+    }
+
   }
 
   @media screen and (min-width:601px){
@@ -292,6 +307,23 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     .itens_menu ul li{
         display: inline;
         margin-left: 1%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+    .img_logo{
+        width: 30%;
+    }
+
+    .logo{
+        width: 30%;
+        text-align: left;
+    }
+
+    .banner{
+        margin-top: 10%;
     }
   }
 
