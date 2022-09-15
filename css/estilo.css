@@ -84,6 +84,11 @@ figure{
     width: 100%;  
 }
 
+.gigante{
+    text-align: center;
+    width: 50%;
+}
+
 
 p{
     font-size: 1.6em;
@@ -182,10 +187,10 @@ table{
 }
 
 table, th, td {
-    border: 3px dashed #232c41;
+    color: rgb(158, 158, 158);
+    border: 3px dashed #444955;
     padding: 1.5%;
     text-align: center;
-    font-family: 'DancingScript-VariableFont_wght',cursive;
   }
 
 td:first-child{
@@ -199,7 +204,7 @@ td:first-child + td {
 th{
     font-size: 1.5em;
     font-weight: bolder;
-    color: #4F4F4F;
+    color: #acacac;
 }
 
 audio{
@@ -207,7 +212,7 @@ audio{
 }
 
 audio::-webkit-media-controls-panel{ 
-    background-color:#334c69 !important; 
+    background-color:#3b4c5f !important; 
 }
 
 form {
@@ -216,7 +221,8 @@ form {
   }
 
 .form{
-    background-color: rgba(95, 95, 95, 0.5) ;
+    color: rgba(209, 209, 209, 0.938);
+    background-color: rgba(95, 95, 95, 0.288) ;
     padding: 20px;
     border-radius: 10px;
 }
@@ -286,7 +292,11 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 
 
     .banner{
-        margin-top: 40%;
+        margin-top: 50%;
+    }
+
+    .descer{
+        margin-top: 53%;
     }
 
   }
@@ -323,7 +333,11 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     }
 
     .banner{
-        margin-top: 10%;
+        margin-top: 13.2%;
+    }
+
+    .descer{
+        margin-top: 13.2%;
     }
   }
 
